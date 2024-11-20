@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 const axios = require('axios');
 
 
-mongoose.connect("mongodb+srv://root:root@cluster0.13tgu.mongodb.net/first?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://root:root@cluster0.13tgu.mongodb.net/User?retryWrites=true&w=majority&appName=Cluster0");
 
 const userSchema = new mongoose.Schema({
     name: String,
